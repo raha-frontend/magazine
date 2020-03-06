@@ -1,0 +1,2 @@
+# magazine
+Верстка сайта Magazine
