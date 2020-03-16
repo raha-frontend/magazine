@@ -2,14 +2,31 @@
 
 body {
     font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+    background: url(../images/main-bg.jpg);
+    color: #5e5e5e;
 }
 
 .clear {
     clear: both;
 }
 
+p {
+    margin: 7px 0 13px 0;
+}
+
 a {
     text-decoration: none;
+    color: #5e5e5e;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 6px;
 }
 
 #header {
@@ -42,7 +59,7 @@ a {
     background: url(../images/top-menu-bg.png) repeat-x;
 }
 
-#inner-menu {
+#inner-menu, #wrapper {
     min-width: 960px;
     max-width: 1200px;
     margin: 0 auto;
@@ -62,4 +79,38 @@ a {
 
 #inner-menu a:hover {
     background: url(../images/menu-hover.png) repeat-x;
+    text-decoration: none;
+}
+
+#sidebar {
+    width: 300px;
+    height: 400px;
+    background-color: #b2b2b2;
+    float: right;
+}
+
+#content {
+    margin-right: 300px;
+    padding: 15px 38px 50px 10px;
+}
+
+.post {
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.thumbnail {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.post-content {
+    margin-left: 180px;
+}
+
+.post-categories, .post-published {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #aaaaaa;
+    margin: 0 0 3px 0;
 }
