@@ -29,13 +29,6 @@ h2 {
     margin-bottom: 6px;
 }
 
-#header {
-    min-width: 960px;
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-
 #logo {
     width: 241px;
     height: 46px;
@@ -59,7 +52,7 @@ h2 {
     background: url(../images/top-menu-bg.png) repeat-x;
 }
 
-#inner-menu, #wrapper {
+#header, #inner-menu, #wrapper, #middle-content, #bottom-content {
     min-width: 960px;
     max-width: 1200px;
     margin: 0 auto;
@@ -89,14 +82,18 @@ h2 {
 }
 
 #content {
-    margin-right: 300px;
-    padding: 15px 38px 50px 10px;
+    margin-right: 310px;
+    padding: 30px 38px 0 10px;
 }
 
 .post {
     border-bottom: 1px dashed #e5e5e5;
     overflow: hidden;
     margin-top: 15px;
+}
+
+.post:first-child {
+    margin-top: 0;
 }
 
 .thumbnail {
@@ -192,3 +189,119 @@ h2 {
 #categories h3 {
     margin-bottom: 14px;
 }
+
+#pagination {
+    margin: 34px 0;
+}
+
+#pagination ul {
+    overflow: hidden;
+}
+
+#pagination ul li {
+    float: left;
+    margin-right: 2px;
+}
+
+#pagination ul li a {
+    display: block;
+    padding: 9px 14px 6px 14px;
+    border-bottom: 3px solid #ccc;
+}
+
+#pagination ul li a:hover {
+    text-decoration: none;
+    background: #e7e7e7;
+}
+
+#pagination .current, #pagination .current:hover {
+    background: #333333;
+    color: #fff;
+    border: none;
+    padding-bottom: 9px;
+}
+
+#pagination .next {
+    padding-bottom: 8px;
+    padding-top: 7px;
+}
+
+#footer {
+    min-width: 960px;
+    color: #e0e0e0;
+}
+
+#footer-top {
+    height: 19px;
+    background: url(../images/footer-top-bg.png) repeat-x;
+}
+
+#footer-middle {
+    background: url(../images/footer-middle-bg.png);
+}
+
+#middle-content {
+    padding-bottom: 60px;
+}
+
+.footer-box {
+    padding-top: 55px;
+    width: 30%;
+    margin-right: 5%;
+    float: left;
+}
+
+#footer-box {
+    margin-right: 0;
+}
+
+#magazine {
+    background: url(../images/logo-footer.png) no-repeat 10px 0;
+    padding: 37px 0 0 10px;
+}
+
+#magazine p {
+    margin: 16px 0;
+}
+
+#footer h3 {
+    background: url(../images/footer-h3-bg.png) repeat-x 0 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 8px;
+}
+
+#footer h3 span {
+    background: url(../images/footer-middle-bg.png);
+    padding-right: 13px;
+}
+
+#archives {
+    padding-right: 10px;
+}
+
+#recent-posts ul li, #archives ul li {
+    padding: 12px 0;
+    background: url(../images/dashed-bg.png) repeat-x left bottom;   
+}
+
+#recent-posts ul li a, #archives ul li a {
+    color: #e0e0e0;
+}
+
+#footer-bottom {
+    background: url(../images/footer-bottom-bg.png) repeat-x;
+}
+
+#footer-bottom p {
+    margin: 0;
+    padding: 25px 10px;
+}
+
+#footer-bottom a {
+    color: #8f8f8f;
+}
+ 
